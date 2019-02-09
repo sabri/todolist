@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+ font-size: sans-serif;
+ background: #465269;
+ color: blanchedalmond;
+  padding: 0px;
+}
+.text-center{
+  text-align: center;
+}
+.container
+{
+  width: 60%;
+  margin: 10% auto;
+}
+ .listItem
+{
+  background:#ffff;
+  color:#465269;
+}
+.listItem p {
+  margin: 0;
+  text-align: center;
+padding: 10px 0px;
+}
+.listItem span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #111;
+
+
+}
+.listItem span.title{
+ background: #2ebae2;
+ color:#ffff;
+}
+.listItem span.name, form input[type=text]{
+  width: 60%;
+ 
+}
+.listItem span.age, form input[type=number]{
+  width: 30%;
+}
+.listItem span.action, form input[type=submit]{
+  width: 10%;
+}
+.listItem span.icon{
+  cursor: pointer;
+  color: #e2492e;
+}
+form input{
+  border:1px solid #111;
+  background: #fff;
+  padding: 10px;
+}
+form input[type=submit]{
+  background: #2ebae2;
+  color: #fff;
+  cursor: pointer;
+  border: o.3px solid #2ebae2;
+
+}
